@@ -7,17 +7,17 @@ const Pricing = () => {
     <h1 className=" text-[#171717]  text-2xl sm:text-4xl md:text-5xl font-bold text-center align-bottom  backdrop-blur-md mt-28 ">
       Choose Your Plan
     </h1>
-    <div className=" relative flex justify-center lg:gap-4 gap-10 xl:gap-8 lg:items-end items-center mt-12 flex-col lg:flex-row  ">
-      <div className="max-w-[405px] max-h-[374px] w-full border border-[#404040] rounded-lg bg-planbg px-10 py-10">
-        <div className=" flex  justify-between   ">
-          <div className="  ">
+    <div className=" relative flex  justify-center lg:gap-4 gap-10 xl:gap-8 lg:items-end items-center mt-12 flex-col lg:flex-row  ">
+      <div className="  max-w-[300px] sm:max-w-[400px]  px-8 py-10 max-h-[374px] w-full border border-[#4ADE80] rounded-lg bg-planbg ">
+        <div className=" flex   justify-between   ">
+          <div className="   ">
             <h1 className="   text-2xl text-[#171717]">Basic</h1>
             <p className="text-xs text-[#171717]">Single User</p>
           </div>
           <div>
             <p className="text-[#171717]">
               {" "}
-              <a className="  text-3xl text-[#171717]">$54/ </a>month
+              <a className="  text-3xl text-[#171717]">3000 RS/ </a>DAY
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-          Any two Sensors 
+          Any 1000cc CAR 
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -36,7 +36,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            Connectivity of Sensors 
+            With in 100km radius
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -44,7 +44,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-           User friendly Frontend Web and Mobile App
+           AC Cars 
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -56,12 +56,12 @@ const Pricing = () => {
           </li>
         </ul>
         <div className=" mt-10 flex justify-center mb-10   ">
-          <button className=" px-12 lg:px-24  bg-gradient-to-br from-[#4ADE80]/20 to-[#6EE7B7]/20 text-[#4ADE80]  py-5 border-[1px] border-[#4ADE80]  rounded ">
+          <button className="text-base sm:text-xl px-6 lg:px-20 py-3 sm:py-4 font-semibold bg-gradient-to-br from-[#4ADE80]/20 to-[#6EE7B7]/20 text-[#ffffff]   border-[1px] border-[#4ADE80]  rounded ">
             Choose{" "}
           </button>
         </div>
       </div>
-      <div className=" h22  max-w-[405px] max-h-[476px] relative w-full border border-[#4ADE80] rounded-lg ultimate bg-ultimateplan backdrop-blur-[50px] px-10 py-10">
+      <div className=" h22  max-w-[405px] max-h-[450px] relative w-full border border-[#4ADE80] rounded-lg ultimate bg-ultimateplan backdrop-blur-[50px] px-10 py-10">
         <div className="bg-gradient-to-r from-[#4ADE80] to-[#6EE7B7] h-40 sm:w-52  absolute top-10 sm:right-24 sm:top-0 blur-[100px]"></div>
         <div className=" flex  justify-between mt-10 ">
           <div className="  ">
@@ -71,7 +71,7 @@ const Pricing = () => {
           <div>
             <p className="text-[#171717]">
               {" "}
-              <a className="text-3xl text-[#171717]">$99/ </a>month
+              <a className="text-3xl text-[#171717]">10000 RS/ </a>Day
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            All Required  Sensors 
+            Any 1800cc Car
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -98,7 +98,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            User friendly Frontend Web and Mobile App
+            User friendly Frontend
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -106,7 +106,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-           Connectivity With database 
+          radius 500KM 
           </li>
           <li className="hover:cursor-pointer  flex gap-2 mt-2">
             {" "}
@@ -126,12 +126,12 @@ const Pricing = () => {
           </li>
         </ul>
         <div className=" mt-10 flex justify-center mb-10   ">
-          <button className=" px-12 lg:px-24   tracking-[-0.03em] bg-gradient-to-r from-[#15803D] to-[#34D399] hover:from-[#34D399] hover:to-[#15803D] text-[#ffffff] font-bold   py-5 border-[1px] border-[#4ADE80]  rounded ">
+          <button className=" text-base sm:text-xl px-6 lg:px-20 py-3 sm:py-4 font-semibold   tracking-[-0.03em] bg-gradient-to-r from-[#15803D] to-[#34D399] hover:from-[#34D399] hover:to-[#15803D] text-[#ffffff]  border-[1px] border-[#4ADE80]  rounded ">
             Choose{" "}
           </button>
         </div>
       </div>
-      <div className="max-w-[405px] max-h-[374px] w-full border border-[#404040] rounded-lg bg-planbg px-10 py-10">
+      <div className="max-w-[300px] sm:max-w-[400px] max-h-[374px] px-8 py-10 w-full border border-[#4ADE80] rounded-lg bg-planbg ">
         <div className=" flex  justify-between  ">
           <div className="  ">
             <h1 className="   text-2xl text-[#171717]">Business</h1>
@@ -140,7 +140,7 @@ const Pricing = () => {
           <div>
             <p className="text-[#171717]">
               {" "}
-              <a className="text-3xl text-[#171717]">$79/ </a>month
+              <a className="text-3xl text-[#171717]">6000 RS/ </a>day
             </p>
           </div>
         </div>
@@ -151,7 +151,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            Any two Sensors 
+            Any 1500cc Car 
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -167,7 +167,7 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            User friendly Frontend Web and Mobile App
+            300km radius 
           </li>
           <li className="hover:cursor-pointer flex gap-2 mt-2">
             {" "}
@@ -175,11 +175,11 @@ const Pricing = () => {
               {" "}
               <img src={Tick} />
             </div>{" "}
-            Connectivity with data base 
+            Upto date Models 
           </li>
         </ul>
         <div className=" mt-10 flex justify-center mb-10   ">
-          <button className=" px-12 lg:px-24  bg-gradient-to-br from-[#4ADE80]/20 to-[#6EE7B7]/20 text-[#4ADE80]  py-5 border-[1px] border-[#4ADE80]  rounded ">
+          <button className="text-base sm:text-xl px-6 lg:px-20 py-3 sm:py-4 font-semibold  bg-gradient-to-br from-[#4ADE80]/20 to-[#6EE7B7]/20 text-[#ffffff]  border-[1px] border-[#4ADE80]  rounded ">
             Choose{" "}
           </button>
         </div>

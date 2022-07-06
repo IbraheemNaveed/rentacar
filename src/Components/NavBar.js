@@ -53,7 +53,7 @@ export default function Navbar() {
               <li className=" w-max mx-4 my-6 md:my-0">
                 <Link
                 
-                  className="text-[14px] hover:text-cyan-500 text-[#ffffff] hover:underline-offset-4 hover:underline duration-500"
+                  className="text-[14px] hover:text-cyan-500 text-white hover:underline-offset-4 hover:underline duration-500"
                   activeClass="active"
                   to="home"
                   spy={true}
