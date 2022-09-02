@@ -12,8 +12,8 @@ import Navb from './Components/nav';
 import Car from './Components/car';
 function App() {
   return (
-    <div className='w-[100%] bg-gradient-to-r from-[#c8f3d8] to-[#577c6d] backdrop-blur-xl  '>
-    <div   className="  bg-[#1d1b1b] sticky-navbar z-10  ">
+    <div className='w-[100%] bg-gradient-to-r bg-gray-800 backdrop-blur-xl  '>
+    <div   className="  dark:bg-gray-800 -mt-12  ">
   <Nav/>
     </div>
     <Head/>
@@ -22,7 +22,7 @@ function App() {
     <Pricing/>
     <Login/>
     <Body/>
-   <div className='hidden sm:visible' >  <Car/> </div>
+   <div className='hidden sm:visible ' >  <Car/> </div>
    <FAQ/>
    <Navb/>
     </div>

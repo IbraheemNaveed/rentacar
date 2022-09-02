@@ -3,7 +3,7 @@ import Mapo from "../assests/Wmap.svg";
 const faq = () => {
   return (
     <>
-     <div className=' bg-black ' >
+     <div className=' dark:bg-gray-800 ' >
 
      <div className=" max-w-[1280px] mx-auto ">
         <div className="mt-14 px-4 xl:px-8 pb-20 pt-10">
@@ -53,7 +53,7 @@ How many people can I bring with me?   </p>
       </div>
 
      </div>
-        <div className=" max-w-[1000px]  rounded-full  py-10 mb-8 mx-8 sm:mx-auto bg-[#171717] ">
+        <div className=" max-w-[1000px]  rounded-full  py-10 mb-8 mx-8 sm:mx-auto dark:bg-gray-800 ">
         <div
           className=" bg-center h-[500px] sm:h-[705px] flex flex-col px-8 lg:px-0 items-center justify-center bg-no-repeat mb-11  "
            style={{ backgroundImage: `url(${Mapo})` }}

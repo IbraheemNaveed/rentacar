@@ -4,7 +4,7 @@ import React, { Fragment, useState, useRef } from "react";
 import HamburgerIcon from "../assests/Hamburger.svg";
 
 import CloseIcon from "../assests/Close.svg";
-import Logo from "../assests/logo.png";
+import Logo from "../assests/logo.gif";
 import { Link } from "react-scroll";
 
 // import { a } from 'react-router-dom'

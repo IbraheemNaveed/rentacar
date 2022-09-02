@@ -3,7 +3,7 @@ import Imagetwo from '../assests/imagetwo.png';
 
 const Body = () => {
   return (
-    <div className="max-w-[1280px] mx-auto bg-[#171717] py-3 mt-6">
+    <div className="max-w-[1280px] mx-auto dark:bg-gray-800 py-3 mt-6">
 <div className=' class=" px-4 flex w-full mt-32 justify-between flex-wrap items-center lg:items-start"  '>
   <div className=" flex flex-col px-4 lg:w-1/2  sm:px-10 text-[#ffffff] gap-5 ">
     <h1 className="  text-5xl font-bold">Meet the Author</h1>
@@ -24,7 +24,7 @@ const Body = () => {
     </div>
   </div>
   <div className=" flex flex-col mt-5 relative ">
-    <div className=" w-40 -top-10 h-36 bg-gradient-to-r from-[#4ADE80]/50 to-[#6EE7B7] -right-5 blur-[100px] absolute ">
+    <div className=" w-40 -top-10 h-36 bg-gray-800 -right-5 blur-[100px] absolute ">
       {" "}
     </div>
     <img src={Imagetwo} />
