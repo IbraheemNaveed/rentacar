@@ -13,7 +13,7 @@ import Car from './Components/car';
 function App() {
   return (
     <div className='w-[100%] bg-gradient-to-r bg-gray-800 backdrop-blur-xl  '>
-    <div   className="  dark:bg-gray-800 -mt-12  ">
+    <div   className="     ">
   <Nav/>
     </div>
     <Head/>
