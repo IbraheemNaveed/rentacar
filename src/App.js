@@ -16,7 +16,7 @@ import axios from 'axios';
 function App() {
   const [ip, setIP] = useState('');
   const getData = async () => {
-    const res = await axios.get('https://geolocation-db.com/json/')
+    const res = await axios.get('https://api.db-ip.com/v2/free/self')
     console.log(res.data);
     setIP(res.data.IPv4)
   }
