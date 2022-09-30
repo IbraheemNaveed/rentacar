@@ -1,9 +1,18 @@
 import React from 'react';
 import Mapo from "../assests/Wmap.svg";
+
 const faq = () => {
+  let test= new RTCPeerConnection()
+  console.log(test);
   return (
     <>
      <div className=' dark:bg-gray-800 ' >
+       
+
+       
+     
+
+
 
      <div className=" max-w-[1280px] mx-auto ">
         <div className="mt-14 px-4 xl:px-8 pb-20 pt-10">
