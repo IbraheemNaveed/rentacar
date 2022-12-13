@@ -36,7 +36,7 @@ function Header() {
     <div class="w-full py-2 px-4 sm:px-4 lg:py-8 lg:px-6 z-20">
         <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
-            BISSMILLAH car rental faisalabad
+            BISSMILLAH CAR RENTAL IN FAISALABAD
             </span>
         </h2>
         <p class="text-md mt-4 text-gray-400">
