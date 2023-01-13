@@ -12,7 +12,8 @@ import Navb from './Components/nav';
 import Car from './Components/car';
 import {useState,useEffect} from 'react'
 import axios from 'axios';
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6118149568852531"
+     crossorigin="anonymous"></script>
 function App() {
   const [ip, setIP] = useState('');
   const getData = async () => {

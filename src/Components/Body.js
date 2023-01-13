@@ -3,13 +3,13 @@ import Imagetwo from '../assests/imagetwo.png';
 
 const Body = () => {
   return (
-    <div className="max-w-[1280px] mx-auto dark:bg-gray-800 py-3 mt-6">
+    <div className="max-w-[1280px] mx-auto bg-gray-800 py-3 mt-6">
 <div className=' class=" px-4 flex w-full mt-32 justify-between flex-wrap items-center lg:items-start"  '>
   <div className=" flex flex-col px-4 lg:w-1/2  sm:px-10 text-[#ffffff] gap-5 ">
     <h1 className="  text-5xl font-bold">Meet the Author</h1>
 
     <p className=" text-xl text-[#A3A3A3] sm:w-full ">
-   Naveed Bashir CEO of BISSMILLAH RENT A CAR Rent A Car Pakistan always ready to offer you the smooth and feasible solutions in the form of our well known Rent a Car Pakistan Packages. Not just Rent A Car Pakistan teams are well reckoned in providing reliable services, in fact our teams are acknowledged as one of The Most Reasonable Car Rental Services Providers.
+   Naveed Bashir CEO of BISSMILLAH rent car in faisalabad always ready to offer you the smooth and feasible solutions in the form of our well known Rent a Car Pakistan Packages. Not just Rent A Car Pakistan teams are well reckoned in providing reliable services, in fact our teams are acknowledged as one of The Most Reasonable Car Rental Services Providers.
  </p>
 
     <p className=" text-base text-[#A3A3A3]  ">
