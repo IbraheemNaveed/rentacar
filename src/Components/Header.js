@@ -34,7 +34,7 @@ function Header() {
 
 <div class="bg-gray-800 overflow-hidden  lg:flex lg:items-center">
     <div class="w-full py-2 px-4 sm:px-4 lg:py-8 lg:px-6 z-20">
-        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+        <h2 class="text-3xl font-extrabold  text-white sm:text-4xl">
             <span class="block">
             BISSMILLAH CAR RENTAL IN FAISALABAD
             </span>
@@ -45,7 +45,7 @@ function Header() {
         <div class="lg:mt-0 lg:flex-shrink-0">
             <div class="mt-12 inline-flex rounded-md shadow">
                 <button type="button" class="py-2 px-4  bg-green-500 hover:bg-green-700 focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                    Get started
+                Book Your Car Now
                 </button>
             </div>
         </div>
