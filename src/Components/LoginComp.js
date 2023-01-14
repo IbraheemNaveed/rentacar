@@ -5,7 +5,7 @@ import P1 from '../assests/p1.jpg';
 import P2 from '../assests/p2.jpg';
 import P3 from '../assests/p3.jpg';
 import P4 from '../assests/p4.jpg';
-export const Login = () => {
+export const LoginComp = () => {
     const form = useRef();
     const [first, setFirst] = useState('');
   
@@ -182,4 +182,4 @@ export const Login = () => {
   )
 }
 
-export default Login
+export default LoginComp
