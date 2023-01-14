@@ -6,7 +6,7 @@ import Slider from './Components/Slider';
 import "./Components/Style.css";
 import Body from './Components/Body';
 import Pricing from './Components/Pricing';
-import Login from './Components/login';
+import Login from './Components/Login';
 import FAQ from './Components/faq';
 import Navb from './Components/nav';
 import Car from './Components/car';
