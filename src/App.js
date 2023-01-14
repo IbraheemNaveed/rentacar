@@ -28,10 +28,12 @@ function App() {
 
   }, [])
   return (
-    <div className='w-[100%] bg-gradient-to-r bg-gray-800 backdrop-blur-xl  '>
-    <div   className="     ">
+   <>
+     <div   className="     ">
   <Nav/>
     </div>
+    <div className='w-[100%] bg-gradient-to-r bg-gray-800 backdrop-blur-xl  '>
+    
     <Head/>
     <Slider/>
    
@@ -44,6 +46,7 @@ function App() {
    <h2>Your IP Address is</h2>
       <h4>{ip}</h4>
     </div>
+   </>
   );
 }
 
