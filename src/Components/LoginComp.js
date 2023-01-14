@@ -8,7 +8,6 @@ import P4 from '../assests/p4.jpg';
 export const LoginComp = () => {
     const form = useRef();
     const [first, setFirst] = useState('');
-  
     const sendEmail = (e) => {
       e.preventDefault();
   
